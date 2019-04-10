@@ -1,0 +1,4 @@
+## Primeiro formatar o pen drive com o GParted com sistema de arquivos fat32.
+## Após isso, verificar o código do pen drive. Para isso, entrar na pasta /dev e dar um ls. **Será algo como: sdc, sdc1.**
+
+sudo dd if="diretório da imagem .iso" of=/dev/"código do dispositivo usb" bs=4M
